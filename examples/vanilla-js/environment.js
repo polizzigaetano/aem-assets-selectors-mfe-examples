@@ -26,11 +26,11 @@ function init(){
 
 function onEnvironmentPropertiesChange(event) {
 
-    const stageImsClientId = "<ADOBE_PROVIDED_IMS_CLIENT_ID>";
-    const stageImsOrg = "9D0725C05E44FE1A0A49411C@AdobeOrg";
+    const stageImsClientId = "aemcs-demo-emea-190-assetselector";
+    const stageImsOrg = "1C7202BC5F9A90B40A495FC2@AdobeOrg";
 
-    const prodImsClientId = "<ADOBE_PROVIDED_IMS_CLIENT_ID>";
-    const prodImsOrg = "999F6D0B617C10B80A495E2E@AdobeOrg";
+    const prodImsClientId = "aemcs-demo-emea-190-assetselector";
+    const prodImsOrg = "1C7202BC5F9A90B40A495FC2@AdobeOrg";
 
     const environmentPropertiesInputImsClientId = document.getElementById('environment-properties-input-ims-client-id');
     const environmentPropertiesInputImsOrgId = document.getElementById('environment-properties-input-ims-org-id');
